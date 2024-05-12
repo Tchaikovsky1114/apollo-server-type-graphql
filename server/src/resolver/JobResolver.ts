@@ -3,7 +3,7 @@ import {  Arg, ID, Query, Resolver } from "type-graphql";
 
 @Resolver(Job)
 class JobResolver {
-  @Query(returns => [Job],{ description: "Get all jobs.", nullable: true })
+  @Query(() => [Job],{ description: "Get all jobs.", nullable: true })
   async jobs() {
     // will be replaced with actual service logic.
     return [

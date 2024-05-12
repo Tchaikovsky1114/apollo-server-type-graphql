@@ -26,12 +26,3 @@ buildSchema({
     console.log(`GraphQL server running on http://localhost:${PORT}/graphql`);
   });
 })
-
-// // const apolloServer = new ApolloServer({ schema })
-
-// app.use('/graphql', apolloMiddleware(apolloServer));
-
-// app.listen({ port: PORT }, () => {
-//   console.log(`Server running on port ${PORT}`);
-//   console.log(`GraphQL server running on http://localhost:${PORT}/graphql`);
-// });
